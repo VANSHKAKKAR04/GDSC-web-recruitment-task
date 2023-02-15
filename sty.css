@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('weather1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: rgb(14, 14, 225);
+    font-style: normal;
+    border: 10px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+span {
+    background-color: none;
+    height: fit-content;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    display: block;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    border-radius: 12px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 400px;
+    background-color: none;
+    color: black;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.today {
+    background-color: rgb(234, 235, 230);
+    margin-left: 100px;
+    display: block;
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid black;
+    background-image: url('v2.jpg');;
+    font-size: larger;
+    text-align: center;
+}
+
+.box1 {
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    background-color: none;
+    background-image: url('v3.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+     display: inline-block;
+    font-size: larger;
+    color: black;
+    text-align: center;
+
+}
+
+.box2 {
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    background-image: url('113.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+.box3 {
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    background-image: url('119.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+.box4 {
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    background-image: url('353.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+.box5 {
+    border-radius: 5px;
+
+    width: 200px;
+    height: 150px;
+    background-image: url('335.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
