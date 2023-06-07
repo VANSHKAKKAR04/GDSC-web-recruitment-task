@@ -68,6 +68,12 @@ function showDate() {
     b5.innerHTML=response.daily.time[5] + "<br>" + response.daily.temperature_2m_max[5] + " " + "°C";
      
    }
+
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
    //console.log("Location: "+location);}
   
   // for (var i=0;i<days.length;i++) {
